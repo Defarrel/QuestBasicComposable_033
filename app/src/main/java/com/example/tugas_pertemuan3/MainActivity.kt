@@ -20,9 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Tugas_Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    BasicCompose(
+                        dfrl = Modifier.padding(innerPadding)
                     )
                 }
             }
@@ -31,7 +30,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicCompose(){
+fun BasicCompose(dfrl: Modifier = Modifier){
 
 }
 
