@@ -71,7 +71,11 @@ fun BasicCompose(dfrl: Modifier = Modifier){
             color = Color.Blue,
             fontWeight = FontWeight.Bold
         )
-
+        Text(text = "20220140033", modifier = dfrl,
+            fontSize = 50.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 
