@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
             Tugas_Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompose(
-                        dfrl = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(innerPadding)
                     )
                 }
             }
@@ -42,13 +42,13 @@ class MainActivity : ComponentActivity() {
 
 @Preview(showBackground = true)
 @Composable
-fun BasicCompose(dfrl: Modifier = Modifier){
+fun BasicCompose(modifier: Modifier = Modifier){
     Column(
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
     ){
-        Text(text = "Indonesia", modifier = dfrl,
+        Text(text = "Indonesia", modifier = Modifier,
             fontSize = 70.sp,
             color = Color.Red,
             fontWeight = FontWeight.Bold
@@ -61,17 +61,17 @@ fun BasicCompose(dfrl: Modifier = Modifier){
             contentDescription = null,
             modifier = Modifier.size(200.dp)
         )
-        Text(text = "Nama", modifier = dfrl,
+        Text(text = "Nama", modifier = Modifier,
             fontSize = 20.sp,
             color = Color.Black,
             fontWeight = FontWeight.Bold
         )
-        Text(text = "Defarrel Danendra Praja", modifier = dfrl,
+        Text(text = "Defarrel Danendra Praja", modifier = Modifier,
             fontSize = 15.sp,
             color = Color.Blue,
             fontWeight = FontWeight.Bold
         )
-        Text(text = "20220140033", modifier = dfrl,
+        Text(text = "20220140033", modifier = Modifier,
             fontSize = 50.sp,
             color = Color.Black,
             fontWeight = FontWeight.Bold
