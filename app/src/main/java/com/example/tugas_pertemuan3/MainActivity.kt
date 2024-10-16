@@ -66,6 +66,11 @@ fun BasicCompose(dfrl: Modifier = Modifier){
             color = Color.Black,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "Defarrel Danendra Praja", modifier = dfrl,
+            fontSize = 15.sp,
+            color = Color.Blue,
+            fontWeight = FontWeight.Bold
+        )
 
     }
 }
