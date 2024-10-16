@@ -61,6 +61,12 @@ fun BasicCompose(dfrl: Modifier = Modifier){
             contentDescription = null,
             modifier = Modifier.size(200.dp)
         )
+        Text(text = "Nama", modifier = dfrl,
+            fontSize = 20.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Bold
+        )
+
     }
 }
 
