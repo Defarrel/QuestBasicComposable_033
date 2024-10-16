@@ -33,7 +33,8 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun BasicCompose(dfrl: Modifier = Modifier){
-
+        Text(text = "Indonesia", modifier = dfrl)
+        Text(text = "Versus")
 }
 
 @Composable
